@@ -1,8 +1,5 @@
-# ai-threat-scanner
-🔐 Detect security vulnerabilities in LLM
-
 # 🔐 AI Threat Scanner
-
+### Detect security vulnerabilities in LLM
 <div align="center">
 
 ![AI Threat Scanner Logo](https://raw.githubusercontent.com/Qu4ntikxyz/ai-threat-scanner/main/docs/logo.png)
