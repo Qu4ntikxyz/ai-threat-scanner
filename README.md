@@ -237,16 +237,7 @@ git push origin feature/amazing-feature
 
 ---
 
-## 🏆 **Recognition**
 
-- 🥇 **#1 Trending** on GitHub (AI Security)
-- 🌟 **500+ Stars** in first week
-- 🔥 **Featured** in AI Security Newsletter
-- 💬 **Mentioned** by security researchers
-
-*"Finally, a tool that actually detects prompt injection reliably"* - Security Researcher
-
----
 
 ## 🛡️ **Security**
 
