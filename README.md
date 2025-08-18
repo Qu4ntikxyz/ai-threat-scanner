@@ -281,7 +281,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 - Written in **2 hours** during a security research sprint
 - **Zero external dependencies** for maximum compatibility  
 - Inspired by **real-world attacks** on production AI systems
-- **Battle-tested** on 50+ enterprise chatbots
+
 
 ---
 
