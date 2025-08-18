@@ -21,17 +21,18 @@
 
 ## 🚨 **The Problem**
 
-> **73% of enterprise chatbots are vulnerable to prompt injection attacks**
+> **13% of organizations have experienced AI model breaches**
 > 
-> **45% leak sensitive system prompts**
+> **97% of compromised organizations lack proper AI access controls**
 > 
-> **91% have no rate limiting**
+> **40% of LLM services run without encryption**
 > 
-> **0% test for jailbreak attempts**
+> **Only 7% of companies are equipped to defend against model-specific attacks**
 
-*Source: Qu4ntik Security Research, 2025*
+*Sources: IBM Cost of Data Breach Report 2025, Stanford HAI AI Index 2025*
 
-Companies are deploying AI systems without proper security testing. **This ends today.**
+The rapid adoption of AI systems has outpaced security implementation. Organizations are deploying LLMs without proper testing for prompt injection, jailbreak attempts, and data extraction vulnerabilities. **This gap is creating massive attack surfaces.**
+
 
 ---
 
