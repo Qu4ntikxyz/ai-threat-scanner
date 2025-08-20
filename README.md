@@ -317,14 +317,6 @@ NEW_PATTERNS = {
 - 🔍 Attack pattern analysis
 - 📈 Risk assessment reporting
 
----
-
-## 🏆 **Recognition & Impact**
-
-- **13K+ Security Professionals** using in production
-- **Featured on Reddit** r/cybersecurity, r/LocalLLaMA
-- **Integrated by 50+ Organizations** worldwide
-- **Academic Citations** in 5+ security papers
 
 ---
 
