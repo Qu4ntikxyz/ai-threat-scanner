@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AI Threat Scanner - False Positive Dataset Schema",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["id", "text", "context_type", "source", "tags", "expected"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable unique identifier",
+      "pattern": "^fp-(edu|res|code|doc|llm|user|comm)-[0-9]{3,}$"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Benign content expected NOT to be flagged"
+    },
+    "context_type": {
+      "type": "string",
+      "enum": ["user_input", "llm_response", "educational", "research", "code_block", "documentation"],
+      "description": "Context category aligned with engine context types"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["curated", "community", "dataset", "reddit", "paper", "internal"],
+      "description": "Origin of the sample"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Helpful labels like 'meta_discussion', 'prompt_injection_talk'"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Why benign / context explanation (optional)"
+    },
+    "expected": {
+      "type": "object",
+      "description": "Expected non-threat outcome; minimally {\"safe\": true}",
+      "required": ["safe"],
+      "properties": {
+        "safe": {
+          "type": "boolean",
+          "const": true
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}
